@@ -14,6 +14,7 @@
 		B09254DB1DEC77DD0040C44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09254D91DEC77DD0040C44D /* LaunchScreen.storyboard */; };
 		B09254E61DEC77DD0040C44D /* slideviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09254E51DEC77DD0040C44D /* slideviewTests.swift */; };
 		B09254F11DEC77DD0040C44D /* slideviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09254F01DEC77DD0040C44D /* slideviewUITests.swift */; };
+		B09254FF1DEC77F70040C44D /* slideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09254FE1DEC77F70040C44D /* slideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B09254EC1DEC77DD0040C44D /* slideviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09254F01DEC77DD0040C44D /* slideviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideviewUITests.swift; sourceTree = "<group>"; };
 		B09254F21DEC77DD0040C44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09254FE1DEC77F70040C44D /* slideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = slideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B09254D01DEC77DD0040C44D /* AppDelegate.swift */,
 				B09254D21DEC77DD0040C44D /* ViewController.swift */,
 				B09254D41DEC77DD0040C44D /* Main.storyboard */,
+				B09254FE1DEC77F70040C44D /* slideView.swift */,
 				B09254D71DEC77DD0040C44D /* Assets.xcassets */,
 				B09254D91DEC77DD0040C44D /* LaunchScreen.storyboard */,
 				B09254DC1DEC77DD0040C44D /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B09254D31DEC77DD0040C44D /* ViewController.swift in Sources */,
+				B09254FF1DEC77F70040C44D /* slideView.swift in Sources */,
 				B09254D11DEC77DD0040C44D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
